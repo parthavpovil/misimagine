@@ -1,7 +1,9 @@
 
 # Misimagine - AI Image Generator
 
-Welcome to the **Misimagine** project! This application utilizes AI to generate random images based on user prompts. It's built using React and styled with Tailwind CSS for a sleek, modern interface.
+Welcome to the **Misimagine** project! Misimagine is your fun AI art buddy that turns image generation into a hilarious adventure! Instead of creating exactly what you ask for, this app takes your prompts and spins them into wacky and unexpected images.
+
+Type in something like “a cat in a spaceship” or “a surreal landscape,” and you might get a funny image of “a dancing avocado wearing sunglasses” or “a dragon having a tea party.” Each picture is a surprise that will make you smile and showcase the wild creativity of AI.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
