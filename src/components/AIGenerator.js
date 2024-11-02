@@ -4,19 +4,28 @@ import axios from "axios";
 import ImageGeneratorForm from "./ImageGeneratorForm";
 import './ImageGeneratorForm.css';
 
+
 const AIGenerator = () => {
   const [imageUrl, setImageUrl] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+
+  // Function to add humor to the prompt
+  const makeFunnyPrompt = (prompt) => {
+    return `create a random image`;
+  };
 
   const handleGenerateImage = async (prompt) => {
     setIsLoading(true);
     setError("");
     setImageUrl(""); // Reset previous image
 
+    // Modify prompt with humor
+    const funnyPrompt = makeFunnyPrompt(prompt);
+
     try {
       const payload = {
-        prompt,
+        prompt: funnyPrompt,
         output_format: "webp"
       };
 
@@ -25,7 +34,7 @@ const AIGenerator = () => {
         payload,
         {
           headers: {
-            Authorization: `Bearer sk-H4sOIlgOKcxlsUnOvyMW8H6XcsM89gpcdN2I9i8Vi3rSIF7r`, // Direct API key added
+            Authorization: `Bearer sk-BizvIW0qu291nlPVa2RTzTEZcSFWJsntJlufTJcHN7v3SGvI`, // API key
             Accept: "image/*",
             "Content-Type": "multipart/form-data"
           },
@@ -49,6 +58,10 @@ const AIGenerator = () => {
 
   return (
     <div className="container">
+      {/* Animated background */}
+      <div className="animated-background"></div>
+
+      {/* Main Content */}
       <h1 className="title">Misimagine</h1>
       <ImageGeneratorForm onGenerateImage={handleGenerateImage} isLoading={isLoading} />
       {error && <p className="error">{error}</p>}
