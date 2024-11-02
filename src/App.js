@@ -6,6 +6,7 @@ import AIGenerator from "./components/AIGenerator";
 const App = () => {
   return (
     <div className="App">
+
       <AIGenerator />
     </div>
   );

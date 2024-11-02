@@ -39,3 +39,17 @@
     transform: rotate(360deg);
   }
 }
+
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 2rem 0;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #1a1a1a 0%, #4a4a4a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

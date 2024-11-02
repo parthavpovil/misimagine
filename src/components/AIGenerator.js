@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import ImageGeneratorForm from "./ImageGeneratorForm";
+import './ImageGeneratorForm.css';
 
 const AIGenerator = () => {
   const [imageUrl, setImageUrl] = useState("");
@@ -24,7 +25,7 @@ const AIGenerator = () => {
         payload,
         {
           headers: {
-            Authorization: `Bearer sk-5a5Sk1UBZc1XepaaGk3XP3FlISPoEIBbzaQjRgTXAue1XlGZ`, // Direct API key added
+            Authorization: `Bearer sk-H4sOIlgOKcxlsUnOvyMW8H6XcsM89gpcdN2I9i8Vi3rSIF7r`, // Direct API key added
             Accept: "image/*",
             "Content-Type": "multipart/form-data"
           },
@@ -47,11 +48,11 @@ const AIGenerator = () => {
   };
 
   return (
-    <div>
-      <h1>Stability AI Image Generator</h1>
+    <div className="container">
+      <h1 className="title">Misimagine</h1>
       <ImageGeneratorForm onGenerateImage={handleGenerateImage} isLoading={isLoading} />
-      {error && <p>{error}</p>}
-      {imageUrl && <img src={imageUrl} alt="Generated" />}
+      {error && <p className="error">{error}</p>}
+      {imageUrl && <img src={imageUrl} alt="Generated" className="generated-image" />}
     </div>
   );
 };
