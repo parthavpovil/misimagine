@@ -1,4 +1,4 @@
-# Misimagine 🎯
+<img width="1436" alt="Screenshot 2024-11-03 at 8 25 25 AM" src="https://github.com/user-attachments/assets/99480618-4852-4f30-bee9-12c89727e7bb"># Misimagine 🎯
 
 ### Basic Details
 - **Team Name:** parthav Povil's Team
@@ -62,20 +62,20 @@ Misimagine delivers delightful surprises with each image, twisting your ideas in
 #### For Software
 
 - **Screenshots**
-  - ![Welcome Screen](Add screenshot here) *"User-friendly interface that greets you with whimsical charm!"*
-  - ![Sample Prompt Result](Add screenshot here) *"See the hilarious interpretations Misimagine provides!"*
-  - ![Gallery of Creations](Add screenshot here) *"View all of your AI surprises in one place!"*
+<img width="1436" alt="Screenshot 2024-11-03 at 8 13 50 AM" src="https://github.com/user-attachments/assets/a5a
+<img width="1436" alt="Screenshot 2024-11-03 at 8 25 25 AM" src="https://github.com/user-attachments/assets/3887b849-8da5-4dd7-8481-0a8c889f1396">
+5d8b2-c684-499c-86eb-e7436
+<img width="1436" alt="Screenshot 2024-11-03 at 8 25 18 AM" src="https://github.com/user-attachments/assets/b65a7f94-df9e-4863-8281-f8bf27c21ced">
+64b28c4">
 
-- **Diagrams**
-  - ![Workflow](Add workflow/architecture diagram here) *"A quick look at how Misimagine works its magic from input to image."*
+
 
 ---
 
 ### Project Demo
 
 - **Video**
-  - [Add your demo video link here] *"Watch Misimagine bring your wacky prompts to life!"*
-
+https://youtu.be/1A54oIpZuc4
 
 ---
 
