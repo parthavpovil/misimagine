@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/misimagine/static/css/main.633ced8c.css",
-    "main.js": "/misimagine/static/js/main.fd502953.js",
+    "main.js": "/misimagine/static/js/main.75ee9194.js",
     "static/js/453.88cd20cd.chunk.js": "/misimagine/static/js/453.88cd20cd.chunk.js",
     "index.html": "/misimagine/index.html",
     "main.633ced8c.css.map": "/misimagine/static/css/main.633ced8c.css.map",
-    "main.fd502953.js.map": "/misimagine/static/js/main.fd502953.js.map",
+    "main.75ee9194.js.map": "/misimagine/static/js/main.75ee9194.js.map",
     "453.88cd20cd.chunk.js.map": "/misimagine/static/js/453.88cd20cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.633ced8c.css",
-    "static/js/main.fd502953.js"
+    "static/js/main.75ee9194.js"
   ]
 }
