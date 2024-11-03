@@ -34,7 +34,7 @@ const AIGenerator = () => {
         payload,
         {
           headers: {
-            Authorization: `Bearer sk-BizvIW0qu291nlPVa2RTzTEZcSFWJsntJlufTJcHN7v3SGvI`, // API key
+            Authorization: `Bearer sk-q1SRI60Yk8zO4KTJVHBdiBbPOcM93w8Yf5Qv76Uo6lR6ELRl`, // API key
             Accept: "image/*",
             "Content-Type": "multipart/form-data"
           },
