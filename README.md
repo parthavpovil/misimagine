@@ -62,7 +62,8 @@ Misimagine delivers delightful surprises with each image, twisting your ideas in
 #### For Software
 
 - **Screenshots**
-<img width="1436" alt="Screenshot 2024-11-03 at 8 13 50 AM" src="https://github.com/user-attachments/assets/a5a
+<img width="1436" alt="Screenshot 2024-11-03 at 8 13 50 AM" src="https://github.com/user-attachments/assets/983f9210-ddde-4294-a27c-8b14d3fb65e6">
+
 <img width="1436" alt="Screenshot 2024-11-03 at 8 25 25 AM" src="https://github.com/user-attachments/assets/3887b849-8da5-4dd7-8481-0a8c889f1396">
 5d8b2-c684-499c-86eb-e7436
 <img width="1436" alt="Screenshot 2024-11-03 at 8 25 18 AM" src="https://github.com/user-attachments/assets/b65a7f94-df9e-4863-8281-f8bf27c21ced">
@@ -86,4 +87,5 @@ https://youtu.be/1A54oIpZuc4
 - ** Handled project setup, documentation, and testing.
 
 ---
-
+### Deployed At
+<https://parthavpovil.github.io/misimagine/>
